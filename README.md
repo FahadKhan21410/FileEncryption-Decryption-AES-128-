@@ -2,24 +2,27 @@
 * Helps encrypt & decrypt your private files using AES-128
 
 ## Features
-* Will encrypt files using AES-128
-* Uses a 32Bit Hex key (Randomized)
-* Seperate decryptor if need arises to share encrypted files
+* Encrypt files using AES-128
+* Uses a **32-character hex key** (16 bytes, randomized).
+* Includes a **standalone decryptor** for sharing encrypted files with others.
 
 ## Tech Stack
 * Python
-* Cipher (Crypto), (AES)
+* **PyCryptodome** (Crypto library for AES)
+* **AES (CBC Mode)**
 
 ## Development Environment
-* PyCharm
+* Tested with **PyCharm IDE**
+* Python 3.7+ recommended
 
 ## Project Structure
-* /FileEncryption(AES).py -> Used for encrypting and decrypting files
-* /AES-128_decryptor.py -> Seperate Decrpytor (can be shared with users with encrpyted file and key)
+* /FileEncryption(AES).py -> Main Script: Used for encrypting and decrypting files
+* /AES-128_decryptor.py -> Standalone decryptor (can be shared with users along with encrypted file + key)
 
 ## How To Run
 * Clone repository (bash: git clone https://github.com/username/project.git) or Download as ZIP
 * Open the code file in IDE that supports python
+* Install required dependencies: **pip install pycryptodome**
 
 ## Demo
 * https://youtu.be/4uhIK9E5bpI (How the code works)
