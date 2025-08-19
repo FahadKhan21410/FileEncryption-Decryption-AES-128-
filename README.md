@@ -1,5 +1,5 @@
 # FileEncryption-Decryption-AES-128
-* Helps encrypt & decrypt you private files using AES-128
+* Helps encrypt & decrypt your private files using AES-128
 
 ## Features
 * Will encrypt files using AES-128
